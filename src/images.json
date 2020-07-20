@@ -1,0 +1,84 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "path": "./assets/icons/Applicons.png"
+    },
+    {
+      "id": 2,
+      "path": "./assets/icons/appstore.png"
+    },
+    {
+      "id": 3,
+      "path": "./assets/icons/Burnable.png"
+    },
+    {
+      "id": 4,
+      "path": "./assets/icons/Calculator.png"
+    },
+    {
+      "id": 5,
+      "path": "./assets/icons/Calendar.png"
+    },
+    {
+      "id": 6,
+      "path": "./assets/icons/CalendarBlank.png"
+    },
+    {
+      "id": 7,
+      "path": "./assets/icons/CalendarOfficial.png"
+    },
+    {
+      "id": 8,
+      "path": "./assets/icons/Camera.png"
+    },
+    {
+      "id": 9,
+      "path": "./assets/icons/CandyBar.png"
+    },
+    {
+      "id": 10,
+      "path": "./assets/icons/Clock.png"
+    },
+    {
+      "id": 11,
+      "path": "./assets/icons/CloudApp.png"
+    },
+    {
+      "id": 12,
+      "path": "./assets/icons/Cobook.png"
+    },
+    {
+      "id": 13,
+      "path": "./assets/icons/Compass.png"
+    },
+    {
+      "id": 14,
+      "path": "./assets/icons/Contacts.png"
+    },
+    {
+      "id": 15,
+      "path": "./assets/icons/DegisnBriefs.png"
+    },
+    {
+      "id": 16,
+      "path": "./assets/icons/Developer.png"
+    },
+    {
+      "id": 17,
+      "path": "./assets/icons/Dictionary.png"
+    },
+    {
+      "id": 18,
+      "path": "./assets/icons/Doo.png"
+    },
+    {
+      "id": 19,
+      "path": "./assets/icons/Downloads.png"
+    },
+    {
+      "id": 20,
+      "path": "./assets/icons/DropStuff.png"
+    }
+  ]
+}

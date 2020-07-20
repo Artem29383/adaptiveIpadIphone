@@ -1,0 +1,17 @@
+@mixin mediaMobileVertical {
+  @media (max-width: $iPhone-vertical) {
+    @content;
+  }
+}
+
+@mixin mediaMobileHorizontal {
+  @media (max-width: $iPhone-horizontal) {
+    @content;
+  }
+}
+
+@mixin mediaIpadVertical {
+  @media (max-width: $iPad-vertical) {
+    @content;
+  }
+}

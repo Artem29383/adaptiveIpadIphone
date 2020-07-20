@@ -1,0 +1,14 @@
+.buttonSlider {
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+  border: none;
+  background-color: #757575;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+
+  &.active {
+    background-color: #fff;
+  }
+}
