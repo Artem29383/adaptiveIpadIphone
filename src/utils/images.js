@@ -38,6 +38,33 @@ import img37 from '../assets/icons/LaCie Neil Poulton.png';
 import img38 from '../assets/icons/LaCie Rugged.png';
 import img39 from '../assets/icons/LaCie Rugged 2.png';
 import img40 from '../assets/icons/Library.png';
+import img41 from '../assets/icons/Mail.png';
+import img42 from '../assets/icons/Maps.png';
+import img43 from '../assets/icons/Messages.png';
+import img44 from '../assets/icons/Misc Designs 01.png';
+import img45 from '../assets/icons/Monosnap.png';
+import img46 from '../assets/icons/Music.png';
+import img47 from '../assets/icons/Newsstand.png';
+import img48 from '../assets/icons/Notes.png';
+import img49 from '../assets/icons/Passbook.png';
+import img50 from '../assets/icons/Phone.png';
+import img51 from '../assets/icons/Photos.png';
+import img52 from '../assets/icons/Photoshop.png';
+import img53 from '../assets/icons/Preview.png';
+import img54 from '../assets/icons/Reminders.png';
+import img55 from '../assets/icons/RSS Notifier.png';
+import img56 from '../assets/icons/Safari.png';
+import img57 from '../assets/icons/Settings.png';
+import img58 from '../assets/icons/Smart.png';
+import img59 from '../assets/icons/Stocks.png';
+import img60 from '../assets/icons/System.png';
+import img61 from '../assets/icons/Time Machine.png';
+import img62 from '../assets/icons/Time Machine Disk.png';
+import img63 from '../assets/icons/Trash Empty.png';
+import img64 from '../assets/icons/Twitter.png';
+import img65 from '../assets/icons/Users.png';
+import img66 from '../assets/icons/Videos.png';
+import img67 from '../assets/icons/Weather.png';
 
 const images = {
   images: [
@@ -239,6 +266,141 @@ const images = {
     {
       id: 40,
       path: img40,
+      text: 'Clock',
+    },
+    {
+      id: 41,
+      path: img41,
+      text: 'Clock',
+    },
+    {
+      id: 42,
+      path: img42,
+      text: 'Clock',
+    },
+    {
+      id: 43,
+      path: img43,
+      text: 'Clock',
+    },
+    {
+      id: 44,
+      path: img44,
+      text: 'Clock',
+    },
+    {
+      id: 45,
+      path: img45,
+      text: 'Clock',
+    },
+    {
+      id: 46,
+      path: img46,
+      text: 'Clock',
+    },
+    {
+      id: 47,
+      path: img47,
+      text: 'Clock',
+    },
+    {
+      id: 48,
+      path: img48,
+      text: 'Clock',
+    },
+    {
+      id: 49,
+      path: img49,
+      text: 'Clock',
+    },
+    {
+      id: 50,
+      path: img50,
+      text: 'Clock',
+    },
+    {
+      id: 51,
+      path: img51,
+      text: 'Clock',
+    },
+    {
+      id: 52,
+      path: img52,
+      text: 'Clock',
+    },
+    {
+      id: 53,
+      path: img53,
+      text: 'Clock',
+    },
+    {
+      id: 54,
+      path: img54,
+      text: 'Clock',
+    },
+    {
+      id: 55,
+      path: img55,
+      text: 'Clock',
+    },
+    {
+      id: 56,
+      path: img56,
+      text: 'Clock',
+    },
+    {
+      id: 57,
+      path: img57,
+      text: 'Clock',
+    },
+    {
+      id: 58,
+      path: img58,
+      text: 'Clock',
+    },
+    {
+      id: 59,
+      path: img59,
+      text: 'Clock',
+    },
+    {
+      id: 60,
+      path: img60,
+      text: 'Clock',
+    },
+    {
+      id: 61,
+      path: img61,
+      text: 'Clock',
+    },
+    {
+      id: 62,
+      path: img62,
+      text: 'Clock',
+    },
+    {
+      id: 63,
+      path: img63,
+      text: 'Clock',
+    },
+    {
+      id: 64,
+      path: img64,
+      text: 'Clock',
+    },
+    {
+      id: 65,
+      path: img65,
+      text: 'Clock',
+    },
+    {
+      id: 66,
+      path: img66,
+      text: 'Clock',
+    },
+    {
+      id: 67,
+      path: img67,
       text: 'Clock',
     },
   ],

@@ -1,0 +1,31 @@
+@import "variables";
+@import "mixins";
+
+.mainIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+
+  @include mediaIpadVertical {
+    margin: 100px auto 0 auto;
+  }
+
+  @include mediaMobileHorizontal {
+    margin: 5px auto 30px auto;
+  }
+}
+
+.iconItem {
+  height: 50px;
+  cursor: pointer;
+  width: 50px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+
+  @include mediaMobileVertical {
+    font-size: 10px;
+  }
+}

@@ -10,6 +10,7 @@
   margin: 0 auto;
   height: 700px;
   padding: 15px;
+  position: relative;
 
 
   @include mediaIpadVertical {
@@ -70,6 +71,17 @@
   height: 20px;
   background-color: #757575;
   border-radius: 50%;
+
+  @include mediaMobileHorizontal {
+    width: 16px;
+    height: 16px;
+    left: 33%;
+  }
+
+  @include mediaMobileVertical {
+    left: 50%;
+    top: 33%;
+  }
 }
 
 .buttonDevice {
@@ -93,6 +105,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @include mediaMobileHorizontal {
+    border: 1px solid #fff;
+    width: 7px;
+    height: 7px;
+  }
 }
 
 .figureButtonDevice {
@@ -107,4 +125,101 @@
   border-radius: 5px;
 }
 
+.noises {
+  display: none;
+  width: 20px;
+  height: 67px;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translateY(-50%);
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column-reverse;
+
+  @include mediaMobileHorizontal {
+    display: flex;
+  }
+
+  @include mediaMobileVertical {
+    left: 50%;
+    top: 52%;
+    height: 20px;
+    width: 67px;
+    flex-flow: row-reverse;
+    transform: translateX(-50%);
+  }
+}
+
+.line {
+  border: 2px solid #757575;
+  height: 50px;
+  width: 10px;
+  border-radius: 5px;
+
+  @include mediaMobileVertical {
+    width: 50px;
+    height: 10px;
+  }
+}
+
+.point {
+  height: 5px;
+  width: 5px;
+  background-color: #757575;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: none;
+  width: 110px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-bottom: -2px;
+
+  @include mediaMobileHorizontal {
+    display: flex;
+  }
+
+  @include mediaMobileVertical {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -40px;
+    top: 120px;
+    flex-flow: row-reverse;
+    margin-left: 0;
+  }
+}
+
+.button {
+  display: none;
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #757575;
+
+  &.buttonLarge {
+    width: 25px;
+  }
+
+  &.superLarge {
+    width: 35px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -3px;
+    bottom: 90px;
+  }
+
+  @include mediaMobileHorizontal {
+    display: block;
+  }
+
+  @include mediaMobileVertical {
+    right: 70px;
+    top: 12px;
+    left: initial!important;
+    transform: none!important;
+
+  }
+}
 

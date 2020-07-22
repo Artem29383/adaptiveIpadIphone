@@ -17,52 +17,52 @@
   &:last-child .nextScreen {
     display: none;
   }
-}
 
-.prevScreen {
-  border: none;
-  background-color: transparent;
-  width: 100px;
-  position: absolute;
-  height: 300px;
-  left: 30px;
-
-  @include mediaIpadVertical {
-    height: 500px;
-    left: -109px;
+  & .prevScreen, & .nextScreen {
+    border: none;
+    background-color: transparent;
+    width: 100px;
+    position: absolute;
+    height: 300px;
   }
 
-  @include mediaMobileHorizontal {
-    height: 400px;
-    left: -110px;
+  & .prevScreen {
+    left: 30px;
+
+    @include mediaIpadVertical {
+      height: 500px;
+      left: -109px;
+    }
+
+    @include mediaMobileHorizontal {
+      height: 400px;
+      left: -110px;
+    }
+
+    @include mediaMobileVertical {
+      height: 250px;
+      left: -11px;
+      width: 20px;
+    }
   }
 
-  @include mediaMobileVertical {
-    height: 250px;
-    left: -88px;
-  }
-}
+  & .nextScreen {
+    right: 0;
 
-.nextScreen {
-  border: none;
-  background-color: transparent;
-  width: 100px;
-  position: absolute;
-  height: 300px;
-  right: 0;
+    @include mediaIpadVertical {
+      height: 500px;
+      right: 220px;
+    }
 
-  @include mediaIpadVertical {
-    height: 500px;
-    right: 220px;
-  }
+    @include mediaMobileHorizontal {
+      height: 400px;
+      right: 85px;
+    }
 
-  @include mediaMobileHorizontal {
-    height: 400px;
-    right: 85px;
-  }
-
-  @include mediaMobileVertical {
-    height: 250px;
-    right: -88px;
+    @include mediaMobileVertical {
+      height: 250px;
+      right: 8px;
+      width: 20px;
+    }
   }
 }

@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React, { memo, useCallback } from 'react';
 import Screen from './Screen';
 
 const ScreenContainer = ({
@@ -15,29 +15,23 @@ const ScreenContainer = ({
   screenIndex,
   onSortEnd,
 }) => {
-  const onNextScreenOver = () => {
-    if (!isDragOver) {
-      const shift = -width * (screenActive + 1);
-      setShift(shift);
-      setScreenActive(screenActive + 1);
-      setIsDragOver(true);
-    }
-  };
-
-  const onPrevScreenOver = () => {
-    if (!isDragOver) {
-      const shift = -width * (screenActive - 1);
-      setShift(shift);
-      setScreenActive(screenActive - 1);
-      setIsDragOver(true);
-    }
-  };
+  const onChangeScreenOver = useCallback(
+    side => {
+      if (screenIndex !== screenActive) return;
+      if (!isDragOver) {
+        const shift = -width * (screenActive + side);
+        setShift(shift);
+        setScreenActive(screenActive + side);
+        setIsDragOver(true);
+      }
+    },
+    [width, screenActive, isDragOver, screenIndex]
+  );
 
   return (
     <Screen
       screenRef={screenRef}
-      onPrevScreenOver={onPrevScreenOver}
-      onNextScreenOver={onNextScreenOver}
+      onChangeScreenOver={onChangeScreenOver}
       onSortEnd={onSortEnd}
       mainIcons={mainIcons}
       screenImages={screenImages}

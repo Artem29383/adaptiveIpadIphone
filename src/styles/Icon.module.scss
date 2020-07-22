@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+
+.iconItem {
+  margin: 0 auto;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+
+  @include mediaMobileVertical {
+    font-size: 10px;
+  }
+}

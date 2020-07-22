@@ -40,6 +40,7 @@ module.exports = {
     filename: filename('js'),
     path: path.resolve(process.cwd(), 'build'),
     publicPath: '/',
+    globalObject: 'this',
   },
   resolve: {
     extensions: ['.js', '.jsx'],

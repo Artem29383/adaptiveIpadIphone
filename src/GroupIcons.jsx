@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { ReactSortable } from 'react-sortablejs';
 import classes from './styles/GroupIcons.module.scss';
-import Icon from './Icon';
+import IconContainer from './IconContainer';
 
 const GroupIcons = ({
   screenImages,
@@ -10,9 +10,8 @@ const GroupIcons = ({
   screenIndex,
   onSortEnd,
 }) => {
-  console.log('render groupIcons');
   const icons = screenImages.map((icon, index) => (
-    <Icon
+    <IconContainer
       index={index}
       key={icon.id}
       id={icon.id}
