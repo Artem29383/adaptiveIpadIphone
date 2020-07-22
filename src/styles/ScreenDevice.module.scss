@@ -37,6 +37,15 @@
   min-width: 100000px;
   display: grid;
   transition: transform 0.2s ease-in-out;
+  min-height: 370px;
+
+  @include mediaIpadVertical {
+    min-height: 460px;
+  }
+
+  @include mediaMobileHorizontal {
+    min-height: 225px;
+  }
 }
 
 .buttonsSlider {

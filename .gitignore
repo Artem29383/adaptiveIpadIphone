@@ -1,6 +1,7 @@
 .DS_Store
 *.log
 build
-
+.idea
 node_modules
 public
+yarn.lock
